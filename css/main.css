@@ -1,0 +1,596 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 260px;
+  transition: all 0.3s ease;
+  background: #008000;
+  
+}
+#greenwatch-logo{
+    margin-top: 0%;
+}
+#app-table{
+  font-size: 12px;
+}
+#signout{
+  background-color: #008000;
+  border: none;
+}
+#search-input{
+  box-shadow: rgba(80, 165, 98, 0.842) 0px 2px 8px 0px;
+ 
+}
+
+.sidebar.active{
+  width: 18px;
+  
+}
+.sidebar.active .nav-links{
+  display: none;
+  
+}
+.sidebar.active #greenwatch-logo{
+  display: none;
+  
+}
+
+.sidebar .logo-details{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.sidebar .logo-details img{
+  margin-left: 8%;
+}
+.sidebar .logo-details .logo_name{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.sidebar .nav-links{
+  margin-top: 15px;
+}
+.sidebar .nav-links li{
+  position: relative;
+  list-style: none;
+  height: 60px;
+}
+.sidebar .nav-links li a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.sidebar .nav-links li a.active{
+  background: white;
+}
+.sidebar .nav-links li a:hover{
+  background: white;
+}
+#register-dashboard:hover{
+  background: #008000;
+}
+.sidebar .nav-links li i{
+  min-width: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.sidebar .nav-links li a .links_name{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.sidebar .nav-links .log_out{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.home-section{
+  position: relative;
+  background: #f5f5f5;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.5s ease;
+
+}
+.sidebar.active ~ .home-section{
+  width: calc(100% - 40px);
+  left: 40px;
+}
+.home-section nav{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: calc(100% - 240px);
+  left: 240px;
+  z-index: 100;
+  padding: 0 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+.sidebar.active ~ .home-section nav{
+  left: 60px;
+  width: calc(100% - 60px);
+}
+.home-section nav .sidebar-button{
+  display: flex;
+
+  font-size: 26px;
+  font-weight: 500;
+}
+nav .sidebar-button i{
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.home-section .home-content{
+  position: relative;
+  padding-top: 104px;
+}
+.home-content .overview-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin-bottom: 26px;
+}
+.overview-boxes .box{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: calc(100% / 4 - 15px);
+  background: #fff;
+  padding: 15px 14px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgb(119, 185, 119);
+}
+.overview-boxes .box-topic{
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-content .box .number{
+  display: inline-block;
+  font-size: 35px;
+  margin-top: -6px;
+  font-weight: 500;
+}
+.home-content .box .number1{
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+.home-content .box .number1{
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+
+
+
+#check{
+    font-size: 35px;
+    color: green;
+    margin-top: 11%;
+}
+
+
+.home-content .total-order{
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-content .sales-boxes{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+/* left box */
+.home-content .sales-boxes .recent-sales{
+ 
+  width: 100%;
+  background: #fff;
+  padding: 20px 30px;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgb(173, 206, 173);
+}
+.home-content .sales-boxes .sales-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sales-boxes .box .title{
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+}
+.sales-boxes .sales-details li.topic{
+  font-size: 20px;
+  font-weight: 500;
+}
+.sales-boxes .sales-details li{
+  list-style: none;
+  margin: 8px 0;
+}
+.sales-boxes .sales-details li a{
+  font-size: 18px;
+  color: #333;
+  font-size: 400;
+  text-decoration: none;
+}
+.sales-boxes .box .button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sales-boxes .box .button a{
+  color: #fff;
+  background: #0A2558;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+
+
+/* Responsive Media Query */
+@media (max-width: 1240px) {
+  .sidebar{
+    width: 60px;
+  }
+  .sidebar.active{
+    width: 220px;
+  }
+  .home-section{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .sidebar.active ~ .home-section{
+    /* width: calc(100% - 220px); */
+    overflow: hidden;
+    left: 220px;
+  }
+  .home-section nav{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .sidebar.active ~ .home-section nav{
+    width: calc(100% - 220px);
+    left: 220px;
+  }
+}
+@media (max-width: 1150px) {
+  .home-content .sales-boxes{
+    flex-direction: column;
+  }
+  .home-content .sales-boxes .box{
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+  }
+  .home-content .sales-boxes .top-sales{
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .overview-boxes .box{
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 15px;
+  }
+
+  
+}
+@media (max-width: 850px) {
+
+  .sidebar{
+    width: 0;
+    display: none;
+   
+  }
+  
+  .sidebar.active{
+    display: block;
+    background: rgb(28, 134, 28);
+  }
+  .sidebar.active .nav-links{
+    display: block;
+    
+  }
+  .sidebar.active #greenwatch-logo{
+    display: flex;
+    
+  }
+  
+
+}
+
+
+
+@media (max-width: 700px) {
+  .sidebar{
+    width: 0;
+    display: none;
+   
+  }
+  #greenwatch-logo{
+    margin-top: 40%;
+}
+  
+  .sidebar.active{
+    display: block;
+    background: rgb(28, 134, 28);
+  }
+  .sidebar.active .nav-links{
+    display: block;
+    
+  }
+  .sidebar.active #greenwatch-logo{
+    display: flex;
+    
+  }
+  .home-section{
+    width: 100%;
+    left: 0;
+
+  }
+  .home-section nav{
+    width: 100%;
+    left: 0;
+  }
+  #add-trees{
+    margin-left: 5%;
+    background-color: #008000;
+  }
+  #export-csv{
+    margin-bottom: 5%;
+  }
+  .home-content .sales-boxes .recent-sales{
+   
+    width: auto;
+    background: #fff;
+    padding: 10px 10px;
+    margin: 0 10px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgb(173, 206, 173);
+  }
+
+  nav .sidebar-button ,
+  nav .profile-details .admin_name,
+  nav .profile-details i{
+    display: none;
+  }
+  .home-section nav .profile-details{
+    height: 50px;
+    min-width: 40px;
+  }
+  .home-content .sales-boxes .sales-details{
+    width: 560px;
+  }
+}
+@media (max-width: 600px) {
+    .sidebar{
+        width: 0;
+        margin-top: -15%;
+        display: none;
+        
+
+      }
+      .sidebar.active{
+        display: block;
+        background: rgb(28, 134, 28);
+        
+      }
+      .sidebar.active .nav-links{
+        display: block;
+        
+      }
+      .sidebar.active #greenwatch-logo{
+        display: flex;
+        
+      }
+      
+     
+
+      .home-section{
+        width: 100%;
+        left: 0;
+     
+      }
+      .home-section nav{
+        width: 100%;
+        left: 0;
+      }
+      #greenwatch-logo{
+        margin-top: 40%;
+    }
+    #export-csv{
+      margin-bottom: 5%;
+    }
+    .home-content .sales-boxes .recent-sales{
+ 
+      width: auto;
+      background: #fff;
+      padding: 10px 10px;
+      margin: 0 10px;
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgb(173, 206, 173);
+    }
+    
+    
+  .overview-boxes .box{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .sidebar.active ~ .home-section nav .profile-details{
+    display: none;
+  }
+}
+
+  @media only screen and(max-width: 400px) {
+    .sidebar{
+      width: 0;
+      margin-top: -15%;
+      display: none;
+      
+
+    }
+    .sidebar.active{
+      display: block;
+      background: rgb(28, 134, 28);
+    }
+    .sidebar.active .nav-links{
+      display: block;
+      
+    }
+    .sidebar.active #greenwatch-logo{
+      display: flex;
+      
+    }
+    
+  .sidebar.active{
+    width: 100px;
+  }
+ 
+  .sidebar.active ~ .home-section{
+    left: 60px;
+    width: calc(100% - 60px);
+  }
+
+  .sidebar.active ~ .home-section nav{
+    left: 60px;
+    width: calc(100% - 60px);
+    
+  }
+}
+
+@media (max-width: 400px) {
+  
+    
+    .sidebar{
+      width: 0;
+      margin-top: -15%;
+      
+    }
+    .home-section{
+        width: 100%;
+        left: 0;
+     
+      
+      }
+      .home-section nav{
+        width: 100%;
+        left: 0;
+      }
+      
+
+      
+      #export-csv{
+        margin-bottom: 5%;
+      }
+
+      .home-content .sales-boxes .recent-sales{
+        
+        width: auto;
+        background: #fff;
+        padding: 10px 10px;
+        margin: 0 10px;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgb(173, 206, 173);
+      }
+
+     
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+
+.team .member {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.team .member .pic {
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 15px;
+  color: #15222b;
+  box-shadow: 0px 2px 15px #2b7c2b;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #15222b;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #599659;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+
+
+@media (max-width: 992px) {
+  .team .member {
+    margin-bottom: 110px;
+  }
+}
