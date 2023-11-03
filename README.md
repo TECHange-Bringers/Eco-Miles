@@ -37,6 +37,6 @@ The carbon credit market is expanding exponentially. Currently, the market valua
 Our unwavering commitment to sustainability, coupled with access to a burgeoning carbon credit market, cements our competitive edge in driving sustainable transportation and climate action. Our technology and real-time tracking capabilities set us apart. We provide a user-friendly experience that streamlines the transition to electric vehicles and carbon credit generation, catering to a diverse user base.
 
 
-[Slides](https://www.canva.com/design/DAFzFuyhsvE/7xJ4wLcOTPvsfglVSBMuUA/view)
+[Presentation of the Project](https://www.canva.com/design/DAFzFuyhsvE/7xJ4wLcOTPvsfglVSBMuUA/view)
 
-[video submission]()
+[video submission](https://drive.google.com/file/d/1-zDtPUOt0yWVY1kbPszPsmiZJugmq8Q1/view?usp=drivesdk)
