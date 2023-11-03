@@ -18,14 +18,14 @@ sidebarBtn.onclick = function() {
 
 
 // Demo 1 of AEC methodology
-let count = 874000;
+let count = 4000;
 const elementRead = document.querySelector('.read');
 const elementCarbon = document.querySelector('.carbon');
 const elementCredit = document.querySelector('.credit');
 
 function updateCounter1() {
-    if (count > 877000) {
-        count = 874000;
+    if (count > 7000) {
+        count = 4000;
     }
 
     elementRead.textContent = count;
