@@ -40,3 +40,11 @@ Our unwavering commitment to sustainability, coupled with access to a burgeoning
 [PowerPoint Slides](https://www.canva.com/design/DAFzFuyhsvE/7xJ4wLcOTPvsfglVSBMuUA/view)
 
 [Video Submission](https://drive.google.com/file/d/1-zDtPUOt0yWVY1kbPszPsmiZJugmq8Q1/view?usp=drivesdk)
+
+
+## Project done and submitted by:
+Winfred Kiarie - profwinfred@gmail.com
+Collins Abaya -  collinsabaya07@gmail.com
+Joy Mugao - mugaojoy@gmail.com
+Jason Otieno - jjkotieno254@gmail.com
+Priscilla Wairimu - pwairimu046@gmail.com
