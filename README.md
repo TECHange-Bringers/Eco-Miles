@@ -1,3 +1,7 @@
+[<img src="img/">]([https://link-to-your-URL/](https://kind-flower-007c5a210.4.azurestaticapps.net/))
+
+
+
 # EcoMiles: Incentivizing Environmentally Sustainable Choices in the Transport Sector
 
 ## Problem Statement
@@ -32,7 +36,6 @@ The carbon credit market is expanding exponentially. Currently, the market valua
 
 Our unwavering commitment to sustainability, coupled with access to a burgeoning carbon credit market, cements our competitive edge in driving sustainable transportation and climate action. Our technology and real-time tracking capabilities set us apart. We provide a user-friendly experience that streamlines the transition to electric vehicles and carbon credit generation, catering to a diverse user base.
 
-[EcoMiles](https://kind-flower-007c5a210.4.azurestaticapps.net/)
 
 [Slides](https://www.canva.com/design/DAFzFuyhsvE/7xJ4wLcOTPvsfglVSBMuUA/view)
 
