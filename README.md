@@ -1,8 +1,8 @@
-[<img src="img/Favicon.png">](https://kind-flower-007c5a210.4.azurestaticapps.net/)
+<a href="https://kind-flower-007c5a210.4.azurestaticapps.net/" style="display: inline-block;">
+    <img src="img/Favicon.png" alt="Website Image" style="width: 100px; height: auto;">
+</a> 
 
-
-
-# EcoMiles: Incentivizing Environmentally Sustainable Choices in the Transport Sector
+# [EcoMiles: Incentivizing Environmentally Sustainable Choices in the Transport Sector](https://kind-flower-007c5a210.4.azurestaticapps.net/)
 
 ## Problem Statement
 
