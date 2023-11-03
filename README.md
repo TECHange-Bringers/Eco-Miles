@@ -43,8 +43,8 @@ Our unwavering commitment to sustainability, coupled with access to a burgeoning
 
 
 ## Project done and submitted by:
-Winfred Kiarie - profwinfred@gmail.com
-Collins Abaya -  collinsabaya07@gmail.com
-Joy Mugao - mugaojoy@gmail.com
-Jason Otieno - jjkotieno254@gmail.com
-Priscilla Wairimu - pwairimu046@gmail.com
+- Winfred Kiarie - profwinfred@gmail.com
+- Collins Abaya -  collinsabaya07@gmail.com
+- Joy Mugao - mugaojoy@gmail.com
+- Jason Otieno - jjkotieno254@gmail.com
+- Priscilla Wairimu - pwairimu046@gmail.com
