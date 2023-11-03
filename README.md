@@ -1,4 +1,4 @@
-[<img src="img/Favicon.png">]([https://link-to-your-URL/](https://kind-flower-007c5a210.4.azurestaticapps.net/))
+[<img src="img/Favicon.png">(https://kind-flower-007c5a210.4.azurestaticapps.net/)
 
 
 
